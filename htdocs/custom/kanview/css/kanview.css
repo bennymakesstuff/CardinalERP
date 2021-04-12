@@ -1,148 +1,148 @@
-
-/* Copyright    2018    ProgSI   (contact@progsi.ma) */
-
-/* build: '192612583';  */
-
-/* __LOCKED__ */
-
-.tmenuimage .kanview {
-  background-image: url("../img/kanview.png");
-}
-
-.td-card-label {
-  width: 25%;
-}
-
-.data-row-selected {
-  background-color: #b3bafd;	
-  font-weight: bold;
-}
-
-.data-row-selected :hover{
-  background-color: #a2aafb;	
-}
-
-.zr-kanview {
-  float: left;
-  width: 250px;
-  height: 65px;
-  border: 1px solid grey;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.zr-action {
-  float: right;
-}
-
-.button {
-  margin-right: 5px;
-}
-
-textarea {
-  width: 80%;
-}
-
-.filters-fields {
-  border-radius: 5px;
-  border-color: #17B6E6;
-  /* filtre, régle nécessaire si on utilise la propriété enableCount du kanban*/
-  margin-bottom: 5px;
-}
-
-/* champs des filtres externes, <tr> */
-.tr-external-filter {
-  border: 1px;
-  border-spacing: 3px 3px;
-}
-/* champ de saisie du filtre externe dans un <div> */
-.div-external-filter {
-  margin-bottom: 3px !important;
-}
-
-/* kanban */
-.e-headercelldiv {
-  border: solid 1px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  background-color: #d9edf7;
-  padding: 5px;
-}
-
-
-
-/* bugfix sf:combobox */
-.e-ddl-hidden{
-  display: none;
-}
-
-/* lien vers la fiche dolibarr */
-.object-link{
-  color: black !important;
-  font-weight: bold !important;
-}
-
-/* legend color box  */
-.legend-color{
-  width: 0; 
-  height: 0; 
-  border-style: solid; 
-  border-width: 0 0 15px 15px; 
-  /*border-color: transparent transparent #007bff transparent;*/
-}
-.legend-label{
-  padding-left: 10px !important;
-  font-size: 0.8em !important;
-}
-
-/* réduction de la taille de l'image' */
-td.e-imagecell{
-  width: 25px !important;
-  overflow: hidden;
-}
-.e-card_image{
-  width: 20px !important;
-  height: 20px !important;
-  margin-right: 1px !important;
-}
-
-/* spécifique taches */
-.taskexecutive{
-  border: solid 1px magenta;
-  /*background-color: magenta;*/
-}
-/* conteneur lien + image */
-.e-card_link{
-  width: 22px;
-  height: 22px;
-}
-
-/* progress */
-.progress-container{
-  width: 100%; 
-  height: 3px; 
-  border: solid 1px lightgreen;
-/*  backgroud-color: white !important;
-  z-index: 1000 !important;*/
-}
-.progress-value{ 
-  height: 100%; 
-  background-color: lightcoral;
-}
-.progress-container:hover{
-  cursor: default;
-}
-
-/* tooltip colonne des labels */
-.tooltip-label{
-  width: 50%;
-}
-/* ligne du tooltip */
-.tooltip-tr > td{
-  /*height: 10px !important;*/
-  padding: 0px;
-  vertical-align: top;
-  /*margin: 0px;*/
+
+/* Copyright    2018    ProgSI   (contact@progsi.ma) */
+
+/* build: '192612583';  */
+
+/* __LOCKED__ */
+
+.tmenuimage .kanview {
+  background-image: url("../img/kanview.png");
+}
+
+.td-card-label {
+  width: 25%;
+}
+
+.data-row-selected {
+  background-color: #b3bafd;	
+  font-weight: bold;
+}
+
+.data-row-selected :hover{
+  background-color: #a2aafb;	
+}
+
+.zr-kanview {
+  float: left;
+  width: 250px;
+  height: 65px;
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.zr-action {
+  float: right;
+}
+
+.button {
+  margin-right: 5px;
+}
+
+textarea {
+  width: 80%;
+}
+
+.filters-fields {
+  border-radius: 5px;
+  border-color: #17B6E6;
+  /* filtre, régle nécessaire si on utilise la propriété enableCount du kanban*/
+  margin-bottom: 5px;
+}
+
+/* champs des filtres externes, <tr> */
+.tr-external-filter {
+  border: 1px;
+  border-spacing: 3px 3px;
+}
+/* champ de saisie du filtre externe dans un <div> */
+.div-external-filter {
+  margin-bottom: 3px !important;
+}
+
+/* kanban */
+.e-headercelldiv {
+  border: solid 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #d9edf7;
+  padding: 5px;
+}
+
+
+
+/* bugfix sf:combobox */
+.e-ddl-hidden{
+  display: none;
+}
+
+/* lien vers la fiche dolibarr */
+.object-link{
+  color: black !important;
+  font-weight: bold !important;
+}
+
+/* legend color box  */
+.legend-color{
+  width: 0; 
+  height: 0; 
+  border-style: solid; 
+  border-width: 0 0 15px 15px; 
+  /*border-color: transparent transparent #007bff transparent;*/
+}
+.legend-label{
+  padding-left: 10px !important;
+  font-size: 0.8em !important;
+}
+
+/* réduction de la taille de l'image' */
+td.e-imagecell{
+  width: 25px !important;
+  overflow: hidden;
+}
+.e-card_image{
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 1px !important;
+}
+
+/* spécifique taches */
+.taskexecutive{
+  border: solid 1px magenta;
+  /*background-color: magenta;*/
+}
+/* conteneur lien + image */
+.e-card_link{
+  width: 22px;
+  height: 22px;
+}
+
+/* progress */
+.progress-container{
+  width: 100%; 
+  height: 3px; 
+  border: solid 1px lightgreen;
+/*  backgroud-color: white !important;
+  z-index: 1000 !important;*/
+}
+.progress-value{ 
+  height: 100%; 
+  background-color: lightcoral;
+}
+.progress-container:hover{
+  cursor: default;
+}
+
+/* tooltip colonne des labels */
+.tooltip-label{
+  width: 50%;
+}
+/* ligne du tooltip */
+.tooltip-tr > td{
+  /*height: 10px !important;*/
+  padding: 0px;
+  vertical-align: top;
+  /*margin: 0px;*/
 }
