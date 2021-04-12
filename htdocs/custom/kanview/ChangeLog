@@ -1,0 +1,39 @@
+--------------------------------------------------------------
+Français - KanView ChangeLog
+--------------------------------------------------------------
+**** ChangeLog de 1.0.0 à 2.0.0 ****
+
+- Nouveau : La vue Kanban des Factures fournisseurs a été ajoutée
+
+- Commun à toutes les vues Kanban : 
+      - Nouveau : Gestion des droits avancés, droit global sur le module + droits sur chaque vue kanban si les droits avancés son activés 
+      - Nouveau : L'accès à la fiche Dolibarr associée à la fiche Kanban est possible sur toutes les vues Kanban 
+                  par click sur la référence de l'objet
+      - Nouveau : Photos des contacts sur les tuiles des Tâches, accès à la fiche Dolibarr du contact par click sur la photo
+                  Logo du tiers sur les autres vues Kanban, accès à la fiche Dolibarr du Tiers par click sur le logo
+      - Nouveau : Légende pour vous rappeler vos choix de paramétrage sur toutes les vues Kanban
+      - Nouveau : Impression : Un click droit sur le titre d'une colonne affiche le menu contextuel "Imprimer"
+                  Ce qui permet d'afficher une version imprimable dans une fenêtre séparée 
+                  et une fenêtre de paramétrage de l'imprimante
+      - Modif : Le nombre de fiches dans une colonne s'affiche maintenant dans un badge avec le titre (et non plus sous le titre)
+      - Nouveau : La fiche qui vient d'être déplacée est entourée d'un cadre de couleur magenta pour la retrouver facilement
+      - BugFix : Affichage de la devise avec les montants
+      - Modif : Les tooltips ont été "aérés" et donc plus lisibles 
+      - Nouveau : Compatibilité étendues aux versions 8.0+ de Dolibarr
+
+- Spécifique Tâches : 
+      - Nouveau : Dialogue pour éditer la progression lors du Drag&Drop
+      - Nouveau : Toutes les colonnes sont Draggable et Droppable
+      - Nouveau : Affichage de la progression en cours sous-forme graphique sur la tuile même
+                  (sa valeur numérique est également affichée dans son tooltip)
+      - Nouveau : Filtre par Ressource (contact)
+
+- Spécifique Projets : 
+      - Nouveau : Filtre par Client
+      - BugFix : La référence du projet n'était pas affichée dans la fiche kanban du projet
+
+- Spécifique Propales : 
+      - Nouveau : Paramètre "Retard sur date fin validité" représenté par la couleur du coin inférieur droit de la fiche kanban
+
+- Spécifique Factures clients : 
+      - Nouveau : Pouvoir classer "Payée" une facture "A classer payée"

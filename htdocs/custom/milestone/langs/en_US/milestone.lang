@@ -1,0 +1,63 @@
+# Dolibarr language file - en_US - milestone
+CHARSET=UTF-8
+
+Module1790Name=Milestones
+Module1790Desc=Milestones management (projects, contracts, proposals ...)
+
+Permission1791=Read milestones
+Permission1792=Create/update milestones
+Permission1793=Delete milestones
+
+Milestone=Milestone
+Milestones=Milestones
+MilestoneSetup=Milestones setup
+HideByDefaultProductDescInsideMilestone=Hide by default product description inside milestone
+HideBydefaultProductDetailsInsideMilestone=Hide by default product details inside milestone
+HideByDefaultMilestoneAmount=Hide by default milestone amount
+NewMilestone=New milestone
+AddMilestone=Add a milestone
+AddTo=Add to:
+MoveTo=Move to:
+AddPageBreak=Add page break
+PageBreak=Page break
+NoMilestone=No Milestones
+DeleteMilestone=Delete milestone
+MilestoneDeleted=Milestone is deleted
+ConfirmDeleteMilestone=Are you sure to delete milestone?
+HideDetails=Hide product details
+HideDescription=Hide product description
+HideMilestoneAmount=Hide milestone amount
+ErrorMilestoneFieldRequired=The milestone field '%s' is mandatory
+MilestoneUpgradeIsNeeded=You use a new version of Milestone module, please deactivate and reactivate the module to apply the update, and got to module configuration and click "Milestone module upgrade".
+MilestoneMoreModules=Other modules of same author are available on :
+MilestoneBackgroundColor=Background color of the milestones
+ConfirmDeleteMilestoneOption=Choose a delete option:
+MilestoneDeleteAll=Removing the milestone and associated lines
+MilestoneDeleteMoveProductLineOut=Removing the milestone and recovery of associated lines
+MilestoneDeleteMoveProductLineInAnotherMilestone=Removing the milestone lines and migration to another milestone
+MilestoneDeleteSelectAnotherMilestone=Select destination milestone:
+MilestoneDeleteNameOfNewMilestone=Set the name of the new milestone:
+HideOrDisplayMilestonePicto=Hide or display an image for products lines linked to a jalon.
+
+#errors
+ErrorMilestoneSelectAnotherMilestone=You must select a destination milestone
+ErrorMilestoneNewMilestone=You must define a name for the new milestone
+ErrorMilestoneNotDeleted=The milestone could not be removed!
+ErrorMilestoneDeleteSelectMethod=You must select a delete option!
+
+#upgrade
+MilestoneModuleUpgrade=Milestone module upgrade
+MilestoneUpgradeConfirm=Milestone module upgrade
+MilestoneUpgradeConfirmDescription=Module update and removal of orphan products lines.
+MilestoneUpgradeSimulation=Simulate the update, no data will be erased.
+MilestoneUpgrade=Start final update.
+MilestoneUpgradeConfirmAlert=It is advisable to make a backup of your database before starting the final update!
+MilestonePropalMigration=Proposals migration
+MilestoneOrderMigration=Orders migration
+MilestoneInvoiceMigration=Invoices migration
+MilestoneUpgradeSimulationCompleted=The simulation was completed without errors.
+MilestoneUpgradeCompleted=The update was successful.
+DeleteOrphansProductLine=Deleting of orphan products/services lines
+ErrorMilestoneUpgradeNotCompleted=The update does not complete, try to restart it!
+Performed=performed
+PleaseBePatient=Please be patient...

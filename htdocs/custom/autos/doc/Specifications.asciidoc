@@ -1,0 +1,26 @@
+= MYMODULE =
+:subtitle: MYMODULE SPECIFICATIONS
+
+
+
+== TOPIC OF DOCUMENT
+
+This document describe specifications of module MyModule
+
+
+*Log of versions*
+
+[options="header",format="csv"]
+|=== 
+Author, Date, Version
+ * Copyright (C) 2018		Peter Roberts		<peter.roberts@finchmc.com.au>, Date 2018-11-23, Version 1.0
+|===
+
+
+[NOTE]
+==============
+This document was generated using Dolibarr ERP CRM process
+==============
+
+<<<
+

@@ -1,0 +1,131 @@
+﻿
+DescriptionMod688890938=Module TeamView allows to visualize the evolution of the state of objects in a clear and intuitive way, and change the state of the object by dragging and dropping with the possibility to add comments for each element
+Consulter=Read
+
+
+Date_facture=Invoice date
+Date_limite_règlement=Payment due on
+Total_payé=Total paid
+Type_prospect=Prospect type
+
+Date_proposition=Proposal date
+Date_livraison=Delivery date
+Fin_validité=Validity ending date
+Total_TTC=Total (inc. tax)
+Réf=Ref
+Statut=Status
+
+etatprojetclient=Projects States
+Projets=Projects
+Prospection=Prospection
+Qualification=Qualification
+Proposition=Proposal
+Négociation=Negociation
+En_attente=Waiting
+Gagné=Won
+Perdu=Lost
+Statut_inconnu=Unknown status
+Date_début=Start date
+Date_fin=End date
+Libellé=Label
+Date_création=Creation Date
+Date_commande=Order date
+Brouillon=Draft
+Ouvert=Open
+Clôturé=Closed
+Maintenant=Now
+
+etatpropals=States Propals
+etatfactureclient=Customer Invoice States
+etatcommandeclient=Customer Order Status
+etatprospectclient=Prospects States
+
+Brouillon=Draft
+Validées=Validated
+Signées=Signed
+Non_signées=Unsigned
+Facturées=Invoiced
+
+write_description=Wrtie a description
+Sous-tâches=Subtasks
+Temps_consommé=Time spent
+Par=By
+Durée=Duration
+aucun_temp_consommé=No time spent
+
+Livrées_non_facturées=Delivered, unbilled
+Livrées_facturées=Delivered, Billed
+Facturées_non_livrées=Billed, undelivered
+
+
+Écrivez_un_commentaire=Write a comment
+addcomment=Add a comment
+save=Save
+ref_propal=Ref. propal
+updatedSuccessfuly=Successful update
+noAutorAction=Unauthorized action
+rollBackToDraft=Unauthorized action
+firstValidate=You must validate first
+firstSign=You must sign first
+
+factureVide=The invoice is empty
+ref_facture=Ref. Invoice
+
+commandeVide=The order is empty
+ref_commande=Ref. Order
+ref_prospect=Ref. Prospect
+
+
+Jamais_contacté=Never contacted
+Ne_pas_contacter=Do not contact
+a_contacter=To be contacted
+Contact_en_cours=Contact in process
+Contact_réalisé=Contact done
+Désactivés=Closed
+
+nbrelements=Number of elements :
+
+
+Payées=Paid
+Abandonnées=Abandoned
+A_classer_Payée=To classify "Paid"
+Partiellement_payées=Partially paid
+En_retard=Late
+payé=paid
+date_livraison=Date of delivery
+
+Tâches=Tasks
+Propales=Propals
+Factures=Invoices
+Commandes=Orders
+
+
+
+Rechercher=Search
+Annuler=Cancel
+
+teamview = TeamView
+Modifier = Modify
+Supprimer = Delete
+
+Choisir_un_Projet=Choose a project
+Visibilité=Visibility
+Tiers=Third party
+État_du_projet=Project status
+Nombre_des_tâche=Number of tasks (first level)
+Période=Period
+
+a_Valider=To validate
+To_Do=To Do
+Validé=Valid
+
+Sous_taches=Subtasks
+Commentaire=Comment
+
+Tâche_Parent=Parent Task
+dans_la_liste=In the list
+Progression_déclarée=Reported progress
+Réf_Libellé_Tâche=Ref - Label Task
+
+modifié=modified
+EnCours=In progress

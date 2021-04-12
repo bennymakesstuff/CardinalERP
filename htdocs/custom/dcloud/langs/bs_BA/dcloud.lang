@@ -1,0 +1,102 @@
+# Dolibarr language file - fr_FR - dcloud
+CHARSET=UTF-8
+Module70000Name=D-Cloud
+Module70000Desc=Gestion des fichiers dans le cloud (Dropbox, etc...)
+
+Used=utilisés
+On=sur
+FileName=Nom du fichier
+FileManager=Gestionnaire de fichiers
+Modified=Modifié
+Rename=Renommer
+NewDirectory=Nouveau dossier
+ParentFolder=Répertoire parent
+DropboxTree=Arborescence Dropbox
+DropboxQuota=Quota Dropbox
+CreateAnAccount=Créer un compte
+ParentDirectoriesParameters=Paramètres des répertoires parents
+ThirdpartiesDirectoriesParameters=Paramètres des répertoires tiers
+UsageStatistics=Statistiques d'utilisation
+FreeSpace=Espace Libre
+PersonalFiles=Fichiers Personnels
+SharedFiles=Fichiers Partagés
+CustomerDocuments=Documents clients
+SupplierDocuments=Documents fournisseurs
+CurrentCard=Fiche en cours de synchronisation
+Performed=effectué
+
+DROPBOX_MAIN_ACCOUNT_USER=Adresse E-Mail de connexion
+DROPBOX_MAIN_ACCOUNT_PASSWORD=Mot de passe de connexion
+DROPBOX_MAIN_ROOT=Répertoire racine
+DROPBOX_MAIN_DATA_ROOT=Répertoire racine des documents
+DROPBOX_MAIN_CUSTOMER_ROOT=Répertoire racine des clients
+DROPBOX_MAIN_SUPPLIER_ROOT=Répertoire racine des fournisseurs
+DROPBOX_MAIN_PRODUCT_ROOT=Répertoire racine des produits
+DROPBOX_MAIN_SERVICE_ROOT=Répertoire racine des services
+
+RootDirectoryOf=Répertoire racine des %s
+DirectoryOf=Répertoire des %s
+
+MainRootDescription=Le "/" correspond à la racine de votre compte Dropbox,<br>il est possible de définir la racine dans un sous-répertoire (ex: /dolibarr),<br>ce dernier sera créé automatiquement dès le premier envoi de fichier.
+MainDataRootExample=Ex: %sdocuments
+MainDataRootDescription=Permet de définir un répertoire racine des documents Dolibarr,<br>ce dernier sera créé automatiquement en sous-répertoire du répertoire racine <b>"%s"</b> dès le premier envoi de fichier.<br>Laisser vide si vous souhaitez utiliser le répertoire racine <b>"%s"</b> comme répertoire racine des documents.
+
+MainCustomerRootExample=Ex: %s%s
+MainCustomerRootDescription=Permet de définir un répertoire racine des répertoires clients,<br>ce dernier sera créé automatiquement en sous-répertoire du répertoire racine des documents <b>"%s"</b> dès le premier envoi de fichier.<br>Laisser vide si vous souhaitez utiliser la valeur par défaut <b>"%s"</b>.
+
+MainSupplierRootExample=Ex: %s%s
+MainSupplierRootDescription=Permet de définir un répertoire racine des répertoires fournisseurs,<br>ce dernier sera créé automatiquement en sous-répertoire du répertoire racine des documents <b>"%s"</b> dès le premier envoi de fichier.<br>Laisser vide si vous souhaitez utiliser la valeur par défaut <b>"%s"</b>.
+
+MainProductRootExample=Ex: %s%s
+MainProductRootDescription=Permet de définir un répertoire racine des répertoires produits,<br>ce dernier sera créé automatiquement en sous-répertoire du répertoire racine des documents <b>"%s"</b> dès le premier envoi de fichier.<br>Laisser vide si vous souhaitez utiliser la valeur par défaut <b>"%s"</b>.
+
+MainServiceRootExample=Ex: %s%s
+MainServiceRootDescription=Permet de définir un répertoire racine des répertoires services,<br>ce dernier sera créé automatiquement en sous-répertoire du répertoire racine des documents <b>"%s"</b> dès le premier envoi de fichier.<br>Laisser vide si vous souhaitez utiliser la valeur par défaut <b>"%s"</b>.
+
+MainModulesRootExample=Ex: %s
+MainModulesRootDescription=Permet de définir un répertoire racine des %s,<br>ce dernier sera créé automatiquement en sous-répertoire du répertoire racine des documents <b>"%s"</b> dès le premier envoi de fichier.<br>Laisser vide si vous souhaitez utiliser la valeur par défaut <b>"%s"</b>.
+
+ThirdPartyModulesRootExample=Ex: %s
+ThirdPartyModulesRootDescription=Permet de définir le répertoire contenant les %s,<br>ce dernier sera créé automatiquement en sous-répertoire d'un répertoire %s <b>"%s"</b> dès le premier envoi de fichier.<br>Laisser vide si vous souhaitez utiliser la valeur par défaut <b>"%s"</b>.
+
+
+SetToken=Associer votre compte Dropbox
+UnsetToken=Dissocier ce compte Dropbox
+ConfirmUnsetToken=Êtes-vous sûr de vouloir dissocier ce compte Dropbox ?
+DropboxTokenIsReady=Votre compte Dropbox est activé
+DropboxTokenIsUnset=Votre compte Dropbox est désactivé
+DropboxUpgradeIsNeeded=Vous utilisez une nouvelle version du module D-CLOUD, veuillez désactiver et réactiver le module et relancer l'autorisation Dropbox dans la configuration du module.
+OpenSSLNotInstalled=Le module OpenSSL n'est pas installé sur votre PHP, il est requis pour associer votre compte à Dropbox.
+McryptNotInstalled=Le module Mcrypt n'est pas installé sur votre PHP, il est requis pour associer votre compte à Dropbox.
+
+CachesSystems=Sytèmes de caches
+DcloudMemcached=Serveur Memcached
+DcloudMemcachedDescription=Cette option permet d'utiliser un serveur Memcached afin d'améliorer la rapidité d'affichage.<br>Nécessite un serveur Memcached et le plugin Memcached ou Memcache pour PHP.
+DcloudMemcachedUnavailable=Memcached ou Memcache ne sont pas disponibles sur votre PHP.
+MemcachedServerIsReady=Le serveur Memcached est accessible
+MemcachedServerIsNotReady=Le serveur Memcached n'est pas accessible, vérifier l'adresse et le port.
+DcloudShmop=Mémoire partagée (Shmop)
+DcloudShmopDescription=Shmop est un ensemble de fonctions simples pour gérer la mémoire partagée avec PHP.<br>(lecture, écriture, création et suppression de segments de mémoire partagée UNIX).
+DcloudShmopAvailable=Shmop est disponible sur votre PHP
+DcloudShmopUnavailable=Shmop n'est pas disponible sur votre PHP
+DcloudLastSynchronization=La dernière synchronisation de ce module a été effectuée<br>le <b>%s</b> par <b>%s</b>
+DcloudSyncConfirm=Synchronisation des fichiers
+DcloudSyncConfirmDescription=Cette fonctionnalité permet de synchroniser vos fichiers Dolibarr déjà existant vers votre compte Dropbox. Aucun fichier ne sera effaçé ou écrasé.
+
+DcloudShowThirdpartyDropboxTab=Visualiser l'onglet "Dropbox" dans la fiche tiers
+DcloudShowThirdpartyNativeTab=Visualiser l'onglet "Fichiers joints" natif dans la fiche tiers
+DcloudShowProductDropboxTab=Visualiser l'onglet "Dropbox" dans la fiche produit/service
+DcloudShowProductNativeTab=Visualiser l'onglet "Fichiers joints" natif dans la fiche produit/service
+
+# Errors
+ErrorBadAuthentification=Le login ou le mot de passe est invalide
+ErrorDropboxConnectionIsOut=Le service Dropbox n'est pas joignable<br>L'API est inaccessible, vérifier votre connexion internet ou contacter le service technique.
+ErrorTokenIsAlreadyDefined=Votre compte Dropbox est déjà activé
+ErrorTokenIsAlreadyUnset=Votre compte Dropbox est déjà désactivé
+ErrorElementPathNotDefined=Répertoire non défini
+ErrorElementPathNotDefinedDescription=Vous devez définir un nom de répertoire ou enregistrer votre confirguration.
+ErrorDcloudUpgradeNotCompleted=Une erreur s'est produite lors de la migration
+DropboxAccessNotApproved=L'accès à votre compte Dropbox n'a pas été approuvé
+DropboxAlert32bitsServer=Vous utilisez un système d'exploitation ou une version de PHP en 32bits, il est conseillé d'utiliser une version 64bits. Merci de contacter le service technique si vous rencontrez des problèmes.
+
+DcloudMoreModules=D'autres modules du même auteur et des hébergements sécurisés de Dolibarr sont disponibles sur %s

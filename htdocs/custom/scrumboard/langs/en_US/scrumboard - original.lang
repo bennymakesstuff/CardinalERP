@@ -1,0 +1,24 @@
+Module104210Name = Name
+Module104210Desc = Description
+Ideas = Ideas
+inProgress = In progress
+toDo = To do
+finish = Finish
+TimeAdded=Time Added
+CurrentVelocity=Current Velocity
+HoursPerDay=H per day
+EndedThe=Ended the
+TaskWontfinishInTime=This task is not delivered on the due date
+TaskMightNotfinishInTime=This task may be not delivered on schedule
+TaskDateShouldDelivery=Delivery possible date if it start the scheduled day
+BarProgressionHelp=2 progression bars appear in each task. The whitest is related to the percent progression in task. The second one by the time spent by each user.
+ResetDateWithThisVelocity=Reset end task date with this velocity
+ResetDate=Reset the dates ?
+ResetDateTask=Reset task dates
+showDescriptionInTask=Show description under title
+showDateInDescription=Show dates into description
+SCRUM_USE_GLOBAL_BOARD=Activate global scrumboard (menu "Projects", submenu "Scrumboard")
+
+
+SB_realtimealt=Time spent
+SB_allowedtimealt=Time planned

@@ -1,0 +1,48 @@
+Module104210Name = Scrumboard
+Module104210Desc = Project management in a scrumboard
+Ideas = Backlog
+toDo = To do
+inProgress = In progress
+review = Review
+finish = Completed
+TimeAdded=Time Added
+CurrentVelocity=Current Sprint Period
+HoursPerDay=H per day
+EndedThe=period ending
+TaskWontfinishInTime=This activity will not be delivered on schedule
+TaskMightNotfinishInTime=This activity may not be delivered on schedule
+TaskDateShouldDelivery=Probable completion date if started on planned date
+BarProgressionHelp=2 progression bars appear in each task. The lighter is related to the percent progress of the task. The second one is calculated from  user times.
+ResetDateWithThisVelocity=Recalculate the end dates of the current or future tasks for the following period
+ResetDate=Reset the dates?
+ResetDateTask=Reset task dates
+
+ProjectStories = Scheduled Sprints (separated by commas)
+
+EnableFilterOnGlobalView = Enable filter by user
+
+NumberOfWorkingHourInDay = Number of hours worked per day
+AllowCompleteModeBacklog = Enable Column Management via Dictionary
+showLinkedContactToTask = Show resources associated with tasks
+
+showDescriptionInTask=Show description under title
+showDateInDescription=Show dates in the description
+SCRUM_USE_GLOBAL_BOARD=Activate global scrumboard (menu "Projects", submenu "Scrumboard")
+
+
+SB_realtimealt=Time spent
+SB_allowedtimealt=Time planned
+
+ScrumManageColumns = Scrumboard - Column Management
+ScrumTasksColumnChanged = The tasks of inactive columns have been moved to the "Running" column
+ScrumBeginMigration = Are you sure you want to start the migration?
+
+AddStorie = Add a sprint?
+AddStorieName = Sprint Name
+AddStorieTask = Create sprint
+ConfirmDeleteStorie = Remove sprint
+DeleteStorie = Are you sure you want to erase this sprint?
+EmptyDate = Please fill in the sprint dates
+DateStartAfterDateEnd = The start date is set after the end date
+OriginFile = Original document
+UserFilter = Filter by user

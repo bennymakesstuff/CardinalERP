@@ -1,0 +1,11 @@
+[02-Jan-2020 11:12:16 Australia/Adelaide] PDO DB ErrorGetLine : Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'nb_hour_prepare' in order clause is ambiguous
+)
+ SELECT ws.rowid as id, ws.name,ws.fk_usergroup, ws.nb_hour_capacity, ws.nb_hour_before, ws.nb_hour_after, ws.nb_ressource
+
+	FROM doli_workstation ws LEFT OUTER JOIN doli_workstation_product wsp ON (wsp.fk_workstation=ws.rowid)
+
+	WHERE entity IN(1) GROUP BY ws.rowid ORDER BY `nb_hour_prepare` ASC < L. 329 TListviewTBSparse_sql() dans /home/finchmc/public_html/erp/custom/abricot/includes/class/class.list.tbs.php < L. 582 TListviewTBSrender() dans /home/finchmc/public_html/erp/custom/workstation/workstation.php < L. 192_liste() dans /home/finchmc/public_html/erp/custom/workstation/workstation.php

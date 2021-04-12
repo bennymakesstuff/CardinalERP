@@ -1,0 +1,760 @@
+
+# 
+# ---------- Generated : <<<2018100410310795>>>
+# 
+
+#
+# Traduction Anglaise du module kanview  -- __BUILD__ --
+#
+
+# Copyright (C) 2018  ProgSI <contact@progsi.ma>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+
+# 
+# --------------------------- MODULE -------------------------
+# 
+Module125032Name     =     Kanban Views
+Module125032Desc     =     Kanban views is a convenient way to easily see the evolution of Projects, Quotes, Orders, Invoices, ...
+KanviewSetup     =     Setup of module KanView
+KanviewSetupPage     =     Setup page of module KanView
+KanviewAbout     =     About module KanView
+KanviewAboutPage     =     About page of module KanView
+KanviewNumberingModels     =     Numbering models for KanView
+KanviewPdfModels     =     Documents models for KanView
+Kanview_TopMenu_Dashboard     =     KanView
+Rights_Create     =     Create records into 'Kanban Views' module
+Rights_Read     =     Read data from 'Kanban Views' module
+Rights_Update     =     Update data from 'Kanban Views' module
+Rights_Delete     =     Delete data from 'Kanban Views' module
+Kanview_LeftMenu_Facture_Kanban     =     Customers Invoices
+Kanview_LeftMenu_Projet_Kanban     =     Projects
+Kanview_LeftMenu_Societe_Kanban     =     Prospects
+Kanview_LeftMenu_Fichinter_Kanban     =     Interventions
+Kanview_LeftMenu_Config     =     <em style="color: blue;">Configuration</em>
+ActionNotAllowed_ProjectDestStatusDisabled     =     Action not allowed : Destination Status is disabled
+PROSPECT_STATUS_UNKNOWN     =     Unknown status
+ActionNotAllowed_PropalDestDraft     =     Action not allowed: Back to Draft
+ActionNotAllowed_PropalFromDraftToValidatedOnly     =     Action not allowed: You must validate first
+ActionNotAllowed_PropalFromSignedToBilleddOnly     =     Action not allowed: You must sign first
+ValidationNotAllowed_NoWarehouse     =     Validation not allowed because no warehouse to decrease was found
+PROJECT_STATUS_UNKNOWN     =     Unknown status
+ActionNotAllowed_ProjectDestStatusUnknown     =     Action not allowed
+Kanview_LeftMenu_ProjetTask_Kanban     =     Tasks 
+Rights_CanUseKanview     =     Can use KanView plugin
+Kanview_LeftMenu_Propal_Kanban     =     Quotations
+Kanview_LeftMenu_Commande_Kanban     =     Orders
+Kanview_LeftMenu_FactureFournisseur_Kanban     =     Suppliers Invoices
+Kanview_LeftMenu_TasksInProjects     =     Kanban (Tasks)
+Kanview_LeftMenu_ProjectInProjects     =     Kanban (Projects)
+ActionNotAllowed_EmptyOrder     =     Action not allowed because this order is empty
+ActionNotAllowed_ToClassifyAbandonnedMustBoNotPaid     =     Action not allowed: to classify abandoned, the invoice must be unpaid or partially paid or late payment
+ActionNotAllowed_YouMustValidateFirst     =     Action not allowed, you must validate first
+ActionNotAllowed_ReturnToDraft     =     Action not allowed: return to Draft
+Kanview_LeftMenu_InOtherModules     =     Kanban
+Kanview_LeftMenu_ProjectModule     =     Kanban
+msgPrintKanbanView     =     Print this Kanban view
+KANVIEW_STATUS_UNKNOWN_COLOR     =     Not defined
+
+# 
+# --------------------------- BOX -------------------------
+# 
+
+# 
+# --------------------------- DASHBOARD -------------------------
+# 
+Kanview_Dashboard     =     Kanban Views - Home
+
+# 
+# --------------------------- HOOK -------------------------
+# 
+
+# 
+# --------------------------- CONSTANT -------------------------
+# 
+Kanview_SetupPage     =     Setup page of module Kanban Views (KanView)
+Kanview_ConstGroupMain     =     Main parameters
+OPP_PERCENT     =     Probability
+TASK_PROJECT     =     Project
+TASK_PLANNED_WORKLOAD     =     Planned workload
+TASK_PROGRESSION     =     Progress
+PROPAL_DATE     =     Propal date
+PROPAL_DATE_FIN_VALIDITE     =     End valididty date
+PROPAL_DATE_LIVRAISON     =     Delivery date
+PROPAL_TOTAL_HT     =     Amount taxes excl.
+INVOICE_TOTAL_RESTANT     =     Remaining amount
+PROSPECT_COUNTRY_TOWN     =     Country-Town
+PROSPECT_EMAIL     =     Email
+PROSPECT_PHONE     =     Phone
+PROSPECT_TYPENT     =     Prospect type
+PROSPECT_EFFECTIF     =     Workforce
+Kanview_ConstGroupInvoices     =     Invoices Kanban view
+KANVIEW_INVOICES_CONTENT     =     Info to display as main content
+KANVIEW_INVOICES_CONTENT_DESC     =     Main field to display in Kanban view tile
+FACNUMBER_TIERS     =     Invoice ref. + Customer
+KANVIEW_INVOICES_TAG     =     Info to display as Tag
+KANVIEW_INVOICES_TAG_DESC     =     Field to display in Tag zone
+INVOICE_FACNUMBER_TIERS     =     Invoice ref. + Customer
+INVOICE_FACNUMBER     =     Invoice ref.
+INVOICE_SOCIETE_NOM     =     Customer
+INVOICE_TOTAL_TTC_TOTAL_PAYE     =     Amount taxes incl. + Paid amount
+INVOICE_TOTAL_TTC     =     Amount taxes incl.
+INVOICE_TOTAL_PAYE     =     Paid amount
+INVOICE_DATE_LIM_REGLEMENT     =     Deadline payment
+INVOICE_DATE_VALID     =     Validation date
+INVOICE_DATEF     =     Invoice date
+KANVIEW_HOME_PAGE     =     Kanban view to show on home page
+KANVIEW_HOME_PAGE_DESC     =     Kanban view to show on home page
+PROJECT     =     Projects
+TASK     =     Tasks
+PROJETS     =     Projects 
+TASKS     =     Tasks
+Kanview_ConstGroupProjets     =     Projects Kanban view
+KANVIEW_PROJETS_TAG     =     Info to display as Tag
+KANVIEW_PROJETS_TAG_DESC     =     Field to show as "Tag" (bottom left info of the kanban tile)
+TIERS     =     Thirdparty
+MONTANT     =     Project amount
+DATE_DEBUT     =     Start date
+DATE_FIN     =     End date
+KANVIEW_PROJETS_DRAFT_COLOR     =     Draft projects 
+KANVIEW_PROJETS_DRAFT_COLOR_DESC     =     Draft projects
+KANVIEW_PROJETS_OPEN_COLOR     =     Opened projects 
+KANVIEW_PROJETS_OPEN_COLOR_DESC     =     Opened projects
+KANVIEW_PROJETS_CLOSED_COLOR     =     Closed projects 
+Kanview_ConstGroupOrders     =     Customers orders Kanban view
+Kanview_ConstGroupProspects     =     Prospects Kanban view
+KANVIEW_PROSPECTS_CONTENT     =     Info to display as main content
+KANVIEW_PROSPECTS_CONTENT_DESC     =     Content field
+PROSPECT_NAME     =     Prospect name
+PROSPECT_REF_NAME     =     Ref. + Prospect name
+KANVIEW_PROSPECTS_TAG     =     Info to display as Tag
+KANVIEW_PROSPECTS_TAG_DESC     =     Field to display as Tag
+PROSPECT_LEVEL     =     Prospect level
+KANVIEW_PROSPECTS_PL_HIGH_COLOR     =     Level High 
+KANVIEW_PROSPECTS_PL_HIGH_COLOR_DESC     =     Level High
+KANVIEW_PROSPECTS_PL_LOW_COLOR     =     Level Low 
+KANVIEW_PROSPECTS_PL_LOW_COLOR_DESC     =     Level Low
+KANVIEW_PROSPECTS_PL_MEDIUM_COLOR     =     Level Medium 
+KANVIEW_PROSPECTS_PL_MEDIUM_COLOR_DESC     =     Level Medium
+KANVIEW_PROSPECTS_PL_NONE_COLOR     =     Level None 
+KANVIEW_PROSPECTS_PL_NONE_COLOR_DESC     =     Level None
+PROPALS     =     Quotations 
+ORDERS     =     Orders 
+INVOICES     =     Customers Invoices 
+PROSPECTS     =     Prospects 
+KANVIEW_ORDERS_CONTENT     =     Info to display as main content
+KANVIEW_ORDERS_CONTENT_DESC     =     Field to display in main content
+ORDER_REF_TIERS     =     Ref. + Thirdparty
+ORDER_REF_DATE_COMMANDE     =     Ref. + Order date
+ORDER_REF_DATE_LIVRAISON     =     Ref. + Shipping date
+KANVIEW_ORDERS_TAG     =     Info to display as Tag
+Kanview_ConstGroupTasks     =     Tasks Kanban view
+KANVIEW_ORDERS_TAG_DESC     =     Field to display in Tag
+KANVIEW_TASKS_TAG     =     Info to display as Tag
+ORDER_AMOUNT_HT     =     Amount taxes excl.
+KANVIEW_TASKS_TAG_DESC     =     Information to display in Tag field of Kanban tile
+ORDER_DATE_COMANDE     =     Order date
+TASK_PERIOD     =     Task period
+ORDER_DATE_LIVRAISON     =     Shipping date
+PRIORITY     =     Priority
+ORDER_AMOUNT_HT_DATE_COMMANDE     =     Amount taxes excl. + Order date
+TOTAL_TASK_DURATION     =     Total duration
+ORDER_AMOUNT_HT_DATE_LIVRAISON     =     Amount taxes excl. + Shipping date
+KANVIEW_ORDERS_LATE1_COLOR     =     Shipping is late for <= 7 days
+KANVIEW_TASKS_STARTED_COLOR     =     Color of tasks started not late
+KANVIEW_ORDERS_LATE1_COLOR_DESC     =     Shipping is late for <= 7 days
+KANVIEW_TASKS_STARTED_COLOR_DESC     =     Color of tasks started not late
+KANBAN_ORDERS_LATE2_COLOR     =     Color while shipping is late for <= 15 days
+KANVIEW_TASKS_LATE_COLOR     =     Tasks late color (Start date is riched but the tasks are not started yet)
+KANBAN_ORDERS_LATE2_COLOR_DESC     =     Color while shipping is late for <= 15 days
+KANVIEW_TASKS_LATE_COLOR_DESC     =     Tasks late color (Start date is riched but the tasks are not started yet)
+KANVIEW_ORDERS_LATE2_COLOR     =     Shipping is late for <= 15 days
+KANVIEW_TASKS_VERY_LATE_COLOR     =     Color of tasks very late (date end riched but the tasks are not finished yet)
+KANVIEW_ORDERS_LATE2_COLOR_DESC     =     Shipping is late for <= 15 days
+KANVIEW_TASKS_VERY_LATE_COLOR_DESC     =     Color of tasks very late (date end riched but the tasks are not finished yet)
+KANVIEW_ORDERS_LATE3_COLOR     =     Shipping is late for > 15 days
+KANVIEW_TASKS_OK_COLOR     =     Tasks not late
+KANVIEW_ORDERS_LATE3_COLOR_DESC     =     Color while shipping is late for > 15 days
+KANVIEW_TASKS_OK_COLOR_DESC     =     Tasks not late
+KANVIEW_TASKS_LATE1_COLOR     =     Tasks late: start date reached but tasks not started yet
+KANVIEW_TASKS_LATE1_COLOR_DESC     =     Tasks late: start date reached but tasks not started yet
+KANVIEW_INVOICES_LATE1_COLOR     =     Late paiement <= 30 days
+KANVIEW_TASKS_LATE2_COLOR     =     Tasks late: end date reached but tasks not finished yet
+KANVIEW_INVOICES_LATE1_COLOR_DESC     =     Late paiement <= 30 days
+KANVIEW_TASKS_LATE2_COLOR_DESC     =     Tasks late: end date reached but tasks not finished yet
+KANVIEW_INVOICES_LATE2_COLOR     =     Late paiement <= 60 days
+KANVIEW_INVOICES_LATE2_COLOR_DESC     =     Late paiement <= 60 days
+KANVIEW_INVOICES_LATE3_COLOR     =     Late paiement > 60 days
+KANVIEW_INVOICES_LATE3_COLOR_DESC     =     Late paiement > 60 days
+KANVIEW_PROJETS_CLOSED_COLOR_DESC     =     Closed projects
+Kanview_ConstGroupPropals     =     Quotations Kanban view 
+KANVIEW_PROPALS_CONTENT     =     Info to display as main content
+KANVIEW_PROPALS_CONTENT_DESC     =     Kanban tiles content
+PROPAL_REF     =     Propal ref.
+NOTE_PUBLIC     =     Public note
+NOTE_PRIVATE     =     Private note
+KANVIEW_PROPALS_TAG     =     Info to display as Tag
+KANVIEW_PROPALS_TAG_DESC     =     Info to view in Tag field
+SOCIETE_NOM     =     Customer
+PROJECT_TITLE     =     Project
+INVOICES_SUPPLIERS     =     Suppliers invoices
+KANVIEW_INVOICES_SUPPLIERS_TAG_DESC     =     Info to display as Tag
+KANVIEW_INVOICES_SUPPLIERS_TAG     =     Info to display as Tag
+Kanview_ConstGroupInvoicesSuppliers     =     Suppliers invoices Kanban view
+KANVIEW_INVOICES_SUPPLIERS_LATE3_COLOR_DESC     =     Late paiement > 60 days
+KANVIEW_INVOICES_SUPPLIERS_LATE3_COLOR     =     Late paiement > 60 days
+KANVIEW_INVOICES_SUPPLIERS_LATE2_COLOR_DESC     =     Late paiement <= 60 days
+KANVIEW_INVOICES_SUPPLIERS_LATE2_COLOR     =     Late paiement <= 60 days
+KANVIEW_INVOICES_SUPPLIERS_LATE1_COLOR_DESC     =     Late paiement <= 30 days
+KANVIEW_INVOICES_SUPPLIERS_LATE1_COLOR     =     Late paiement <= 30 days
+KANVIEW_PROPALS_LATE4_COLOR_DESC     =     Validity date exceeded
+KANVIEW_PROPALS_LATE4_COLOR     =     Validity date exceeded
+KANVIEW_PROPALS_LATE3_COLOR_DESC     =     It remains less than 7 days before end validity
+KANVIEW_PROPALS_LATE3_COLOR     =     It remains less than 7 days before end validity
+KANVIEW_PROPALS_LATE2_COLOR_DESC     =     It remains less than 15 days before end validity
+KANVIEW_PROPALS_LATE2_COLOR     =     It remains less than 15 days before end validity
+KANVIEW_PROPALS_LATE1_COLOR_DESC     =     It remains less than 30 days before end validity
+KANVIEW_PROPALS_LATE1_COLOR     =     It remains less than 30 days before end validity
+FIN_VALIDITE     =     End validity
+DATEP     =     Propal date
+PROSPECTLEVEL_LABEL     =     Level
+EFFECTIF_LIBELLE     =     Workforce
+TYPENT_LIBELLE     =     Entity type
+PHONE     =     Phone
+EMAIL     =     Email
+COUNTRY_TOWN     =     Country-Town
+TOTAL_RESTANT     =     Remaining
+TOTAL_TTC_TOTAL_PAYE     =     Amount taxes incl. + Paid amount
+DATE_LIM_REGLEMENT     =     Deadline payment
+DATEF     =     Invoice date
+TOTAL_HT_DATE_LIVRAISON     =     Amount vat excl. - Delivery date
+TOTAL_HT_DATE_COMMANDE     =     Amount vat excl. - Order date
+DATE_LIVRAISON     =     Delivery date
+DATE_COMANDE     =     Order date
+TOTAL_HT     =     Amount vat excl.
+DATEE     =     End date
+DATEO     =     Start date
+OPP_AMOUNT     =     Opportunity amount
+NON     =     No
+OUI     =     Yes
+KANVIEW_SHOW_PICTO_DESC     =     Show logos in Kanban cards
+KANVIEW_SHOW_PICTO     =     Show logos in Kanban cards
+
+# 
+# --------------------------- PAGE -------------------------
+# 
+RecordSuccessfullyValidated     =     Record successfully validated
+ReqKbMainProspects_Fieldsiret     =     SIRET
+RecordSuccessfullyNotDilvered     =     Delivery successfully cancelled
+ReqKbMainProspects_Fieldape     =     APE
+RecordSuccessfullyBilled     =     Record successfully billed
+ReqKbMainProspects_Fieldidprof5     =     idprof5
+RecordSuccessfullyUnBilled     =     Record successfully unbilled
+ReqKbMainProspects_Fieldfk_typent     =     Entreprise type
+RecordSuccessfullyDelivered     =     Record successfully delivered
+ReqKbMainProspects_Fieldtva_intra     =     TVA Intra
+ReqKbMainPropals_CardTitleTradCode     =     Quotation Card
+ReqKbMainProspects_Fieldcapital     =     Capital
+ReqKbMainPropals_ListTitleTradCode     =     Quotations List
+ReqKbMainProspects_Fieldidprof4     =     idprof4
+ReqKbMainPropals_ListeTitleTradCode     =     Quotations List
+ReqKbMainProspects_Fieldfk_effectif     =     Staff
+ReqKbMainPropals_PageTitleTradCode     =     Quotations
+ReqKbMainProspects_Fieldemail     =     Email
+ReqKbMainOrders_CardTitleTradCode     =     Order Card
+ReqKbMainProspects_Fieldcode_fournisseur     =     Supplier code
+ReqKbMainOrders_ListTitleTradCode     =     Orders List
+ReqKbMainProspects_Fieldcode_compta     =     Accounting code
+ReqKbMainOrders_ListeTitleTradCode     =     Orders List
+ReqKbMainProspects_Fieldcode_compta_fournisseur     =     Supplier accounting code
+KANVIEW_PROSPECTS_PL_UNKNOWN_COLOR     =     Prospects with level Unknown
+ReqKbMainOrders_PageTitleTradCode     =     Orders
+ReqKbMainProspects_Fieldphone     =     Phone
+ReqKbMainInvoices_CardTitleTradCode     =     Invoices Card
+ReqKbMainProspects_Fieldfax     =     Fax
+ReqKbMainInvoices_ListTitleTradCode     =     Invoicess List
+ReqKbMainProspects_Fieldurl     =     URL
+ReqKbMainInvoices_ListeTitleTradCode     =     Invoicess List
+ReqKbMainProspects_Fieldskype     =     Skype
+ReqKbMainInvoices_PageTitleTradCode     =     Invoicess
+ReqKbMainProspects_Fieldfournisseur     =     Supplier 
+ReqKbTitlesProjetsStatus_CardTitleTradCode     =     Project status Card
+ReqKbMainInterventions_CardTitleTradCode     =     Intervention Card
+ReqKbMainProspects_Fieldpays_code     =     Country
+ReqKbTitlesProjetsStatus_ListTitleTradCode     =     Project statuss List
+ReqKbMainInterventions_ListTitleTradCode     =     Interventions List
+ReqKbMainProspects_Fieldpays_code_iso     =     Country
+ReqKbTitlesProjetsStatus_ListeTitleTradCode     =     Project statuss List
+ReqKbMainInterventions_ListeTitleTradCode     =     Interventions List
+ReqKbMainProspects_Fieldpays_label     =     Country
+ReqKbTitlesProjetsStatus_PageTitleTradCode     =     Project statuss
+ReqKbMainInterventions_PageTitleTradCode     =     Interventions
+ReqKbMainProspects_Fieldeffectif_code     =     Workforce
+ReqKbMainProjets_CardTitleTradCode     =     Project Card
+ReqKbMainProspects_CardTitleTradCode     =     Prospect Card
+ReqKbMainProspects_Fieldeffectif_libelle     =     Workforce
+ReqKbMainProjets_ListTitleTradCode     =     Projects List
+ReqKbMainProspects_ListTitleTradCode     =     Prospects List
+ReqKbMainProspects_Fieldtypent_code     =     Prospect type
+ReqKbMainProjets_ListeTitleTradCode     =     Projects List
+ReqKbMainProspects_ListeTitleTradCode     =     Prospects List
+ReqKbMainProspects_Fieldtypent_libelle     =     Prospect type
+ReqKbMainProjets_PageTitleTradCode     =     Projects
+ReqKbMainProspects_PageTitleTradCode     =     Prospects
+Kanview_KB_Projets     =     Projects Kanban view
+Kanview_KB_KanbanInvoices     =     Customers Invoices Kanban view
+INVOICE_DRAFT     =     Draft
+INVOICE_VALIDATED     =     Validated
+INVOICE_PAID     =     Paid
+INVOICE_PARTIALLY_PAID     =     Partially paid
+INVOICE_LATE     =     Late
+Kanview_KB_KanbanProspects     =     Prospects Kanban view
+PROSPECT_NOT_CONTACTED     =     Never contacted
+PROSPECT_DONT_CONTACT     =     Don't contact
+PROSPECT_TO_CONTACT     =     To contact
+PROSPECT_CONTACT_INPROGRESS     =     Contat in progress
+PROSPECT_CONTACTED     =     Contacted
+PROSPECT_INACTIVE     =     Inactive
+Kanview_KB_KanbanInterventions     =     Interventions Kanban view
+INTERVENTION_DRAFT     =     Draft
+INTERVENTION_VALIDATED     =     Validated
+INTERVENTIONS_CLOSED     =     Clos
+INTERVENTION_LATE     =     Late
+ActionNotAllowed_EmptyInvoice     =     Action not allowed, the invoice is empty
+INVOICE_TO_CLASSIFY_PAID     =     To classify "Paid"
+msgDlgTaskEditTitle     =     Edit progress
+Rights_CanUseKanview_Projects     =     Display and edit Projects Kanban view
+Rights_CanUseKanview_Tasks     =     Display and edit Tasks Kanban view
+Rights_CanUseKanview_Propals     =     Display and edit Propals Kanban view
+Rights_CanUseKanview_Orders     =     Display and edit Orders Kanban view
+Rights_CanUseKanview_Invoices     =     Display and edit Customers Invoices Kanban view
+Rights_CanUseKanview_Prospects     =     Display and edit Prospects Kanban view
+LEGEND     =     Legend
+Invoice_SetPaid_DialogTitle     =     Reason to classify 'Paid' this invoice 
+CLOSECODE_DISCOUNTVAT     =     The remaining is a discount
+CLOSECODE_BADDEBT     =     Bad dept
+IncorrectParameter     =     Incorrect parameter
+CLOSECODE_ABANDONED     =     Abandoned
+RecordNotFound     =     Record not found
+CLOSECODE_REPLACED     =     Replaced
+UpdateNotAllowed_ProjectClosed     =     The project is closed, you can't update it
+Invoice_SetPaid_Reason     =     Reason
+RecordUpdatedSuccessfully     =     Record updated successfully
+Invoice_SetAbandoned_Reason     =     Reason
+Invoice_SetAbandoned_Comment     =     Comment
+Invoice_SetPaid_Comment     =     Comment
+Invoice_SetAbandoned_DialogTitle     =     Reason to classify 'Abandoned' this invoice
+INVOICE_ABANDONED     =     Abandoned
+InvoiceValidatedSuccessfully     =     Invoice validated successfully
+InvoiceReopenedSuccessfully     =     Invoice reopened successfully
+InvoiceClassifyPaidSuccessfully     =     Invoice closed successfully
+InvoiceClassifyAbandonedSuccessfully     =     Invoice classified abandoned successfully
+ReqKbMainProspects_Fieldrowid     =     #
+ReqKbMainProspects_Fieldentity     =     Entity
+ReqKbMainProspects_Fieldref_int     =     Internal ref.
+ReqKbMainProspects_Fieldtms     =     Edit date
+ReqKbMainProspects_Fielddatec     =     Creation date
+ReqKbMainProspects_Fieldnote_private     =     Private note
+ReqKbMainProspects_Fieldnote_public     =     Notes
+ReqKbMainProspects_Fieldfk_user_modif     =     Edited by
+ReqKbMainProspects_Fieldfk_user_creat     =     Created by
+ReqKbMainProspects_Fieldid     =     #
+ReqKbMainProspects_Fieldfk_shipping_method     =     Shipping method
+ReqKbMainProspects_Fieldlocation_incoterms     =     Location Incoterms
+ReqKbMainTasks_CardTitleTradCode     =     Task Card
+ReqKbMainProspects_Fieldfk_currency     =     Currency
+ReqKbMainTasks_ListTitleTradCode     =     Tasks List
+ReqKbMainProspects_Fieldfk_account     =     Account
+ReqKbMainTasks_ListeTitleTradCode     =     Tasks List
+ReqKbMainProspects_Fieldmodel_pdf     =     PDF model
+ReqKbMainTasks_PageTitleTradCode     =     Tasks
+ReqKbMainProspects_Fieldfk_pays     =     Country
+ReqKbMainTasks_Fieldrowid     =     #
+ReqKbMainProspects_Fieldfk_departement     =     Department 
+ReqKbMainTasks_Fieldid     =     #
+ReqKbMainProspects_Fieldfk_prospectlevel     =     Level
+ReqKbMainTasks_Fieldref     =     Ref.
+ReqKbMainTasks_Fieldentity     =     Entity
+ReqKbMainTasks_Fielddateo     =     Start date
+ReqKbMainTasks_Fielddatee     =     End date
+ReqKbMainTasks_Fielddescription     =     Description
+ReqKbMainTasks_Fieldfk_statut     =     Status
+ReqKbMainTasks_Fieldnote_private     =     Private note
+ReqKbMainTasks_Fieldnote_public     =     Notes
+ReqKbMainTasks_Fieldfk_projet     =     Project
+ReqKbMainTasks_Fieldfk_task_parent     =     Parent task
+PL_HIGH     =     High
+ReqKbMainTasks_Fielddatev     =     Validation date
+PL_LOW     =     Low
+ReqKbMainTasks_Fieldlabel     =     Label
+PL_MEDIUM     =     Medium
+ReqKbMainTasks_Fieldduration_effective     =     Effective duration
+PL_NONE     =     None
+ReqKbMainTasks_Fieldplanned_workload     =     Planned duration
+ReqKbMainTasks_Fieldprogress     =     Progress
+ReqKbMainTasks_Fieldpriority     =     Priority
+ReqKbMainTasks_Fieldrang     =     Rank
+ReqKbMainTasks_Fieldprogress_level     =     Progress
+ReqKbMainTasks_Fieldprojet_ref     =     Project code
+ReqKbMainTasks_Fieldprojet_title     =     Project title
+ReqKbMainTasks_Fieldtotal_task_duration     =     Duration done
+Kanview_KB_Tasks     =     Tasks Kanban view
+TASK_NOT_STARTED     =     Not started 
+TASK_LEVEL_1     =     < 30%%
+TASK_LEVEL_2     =     < 60%%
+TASK_LEVEL_3     =     < 90%%
+TASK_LEVEL_4     =     Almost done
+TASK_DONE     =     Done
+OnlyUpdateTaskToDoneIsAllowed     =     Only update task to Done is allowed
+ReqKbMainTasks_Fieldfk_soc     =     Customer
+ReqKbMainTasks_Fieldtask_period     =     Task period
+ReqKbMainPropals_Fieldrowid     =     #
+ReqKbMainPropals_Fieldid     =     #
+ReqKbMainPropals_Fieldref     =     Ref.
+ReqKbMainPropals_Fieldentity     =     Entity
+ReqKbMainPropals_Fieldfk_soc     =     Customer
+ReqKbMainTasks_Fielddatec     =     Creation date
+ReqKbMainPropals_Fieldfk_projet     =     Project
+ReqKbMainProjets_Fieldsociete_name_alias     =     Customer alias
+ReqKbMainPropals_Fieldtms     =     Edit date
+ReqKbMainPropals_Fielddatec     =     Creation date
+ReqKbMainPropals_Fieldfk_user_modif     =     Edited by
+ReqKbMainInvoices_Fieldrowid     =     #
+ReqKbMainPropals_Fieldfk_statut     =     Status
+ReqKbMainInvoices_Fieldref_int     =     Internal ref.
+ReqKbMainPropals_Fieldnote_private     =     Private note
+ReqKbMainInvoices_Fieldref_client     =     Code
+ReqKbMainPropals_Fieldnote_public     =     Notes
+ReqKbMainInvoices_Fielddate_valid     =     Validation date
+ReqKbMainPropals_Fieldsociete_nom     =     Customer
+ReqKbMainInvoices_Fieldtms     =     Edit date
+ReqKbMainPropals_Fieldref_int     =     Internal ref.
+ReqKbMainInvoices_Fieldremise_absolue     =     Discount
+ReqKbMainPropals_Fieldref_client     =     Code
+ReqKbMainInvoices_Fieldtotal     =     Total
+ReqKbMainPropals_Fielddatep     =     Propal date
+ReqKbMainInvoices_Fieldfk_statut     =     Status
+ReqKbMainPropals_Fieldfin_validite     =     End validity
+ReqKbMainInvoices_Fieldfk_user_author     =     Created by
+ReqKbMainPropals_Fielddate_valid     =     Validation date
+ReqKbMainInvoices_Fieldfk_user_modif     =     Edited by
+ReqKbMainPropals_Fielddate_cloture     =     Closed at
+ReqKbMainInvoices_Fieldfk_user_valid     =     Validated by
+ReqKbMainPropals_Fieldfk_user_author     =     Created by
+ReqKbMainInvoices_Fieldnote_private     =     Private note
+ReqKbMainPropals_Fieldfk_user_valid     =     Validated by
+ReqKbMainInvoices_Fieldnote_public     =     Notes
+ReqKbMainPropals_Fieldfk_user_cloture     =     Closed by
+ReqKbMainInvoices_Fieldsociete_nom     =     Customer
+ReqKbMainPropals_Fieldprice     =     Price
+ReqKbMainInvoices_Fieldid     =     #
+ReqKbMainPropals_Fieldremise_absolue     =     Discount
+ReqKbMainInvoices_Fieldentity     =     Entity
+ReqKbMainPropals_Fieldtotal_ht     =     Amount vat excl.
+ReqKbMainInvoices_Fieldtva     =     VAT
+ReqKbMainPropals_Fieldtva     =     VAT
+ReqKbMainInvoices_Fieldlocaltax1     =     Total tax1
+ReqKbMainPropals_Fieldlocaltax1     =     Total tax1
+ReqKbMainInvoices_Fieldlocaltax2     =     Total tax2
+ReqKbMainPropals_Fieldlocaltax2     =     Total tax2
+ReqKbMainInvoices_Fieldextraparams     =     Extraparams
+ReqKbMainPropals_Fieldtotal     =     Total
+ReqKbMainInvoices_Fieldfacnumber     =     Invoice ref.
+ReqKbMainPropals_Fieldfk_account     =     Account
+ReqKbMainInvoices_Fieldtype     =     Type
+ReqKbMainPropals_Fieldfk_currency     =     Currency
+ReqKbMainPropals_Fielddate_livraison     =     Delivery date
+ReqKbMainPropals_Fieldfk_shipping_method     =     Shipping method
+ReqKbMainInvoices_Fieldpaye     =     Paid
+ReqKbMainPropals_Fieldfk_availability     =     Availability
+ReqKbMainInvoices_Fieldamount     =     Amount
+ReqKbMainPropals_Fieldfk_input_reason     =     input_reason
+ReqKbMainInvoices_Fieldremise_percent     =     Discount percent
+ReqKbMainPropals_Fieldlocation_incoterms     =     Incoterms
+ReqKbMainInvoices_Fieldremise     =     Discount
+ReqKbMainPropals_Fieldextraparams     =     Extraparams
+ReqKbMainInvoices_Fieldclose_code     =     Close code
+ReqKbMainPropals_Fieldfk_delivery_address     =     Address
+ReqKbMainInvoices_Fieldclose_note     =     Close comments
+ReqKbMainPropals_Fieldsociete_name_alias     =     Customer alias
+ReqKbMainInvoices_Fieldtotal_ttc     =     Amount taxes incl.
+ReqKbMainPropals_Fieldsociete_ref_int     =     Customer internal ref.
+ReqKbMainInvoices_Fieldfk_facture_source     =     Source
+Kanview_KB_Propals     =     Quotations Kanban view
+ReqKbMainInvoices_Fieldfk_cond_reglement     =     Paiment conditions
+ReqKbMainInvoices_Fieldfk_mode_reglement     =     Payment mode
+ReqKbMainInvoices_Fielddate_lim_reglement     =     Deadline payment
+ReqKbMainInvoices_Fieldsituation_cycle_ref     =     Situation cycle réf.
+ReqKbMainInvoices_Fieldsituation_counter     =     situation_counter
+ReqKbMainInvoices_Fieldsituation_final     =     situation_final
+ReqKbMainInvoices_Fieldsociete_nom_alias     =     societe_nom_alias
+BILLED     =     Billed
+ReqKbMainInvoices_Fieldsociete_logo     =     Logo
+ReqKbMainPropals_Fieldprojet_title     =     Project title
+ReqKbMainInvoices_Fieldtotal_paye     =     Paid amount
+ReqKbMainInvoices_Fieldnbre_lignes     =     nbre_lignes
+ReqKbMainInvoices_Fieldnbre_services     =     nbre_services
+ReqKbMainInvoices_Fieldnbre_produits     =     nbre_produits
+ReqKbMainInvoices_Fieldref_ext     =     ref_ext
+ReqKbMainInvoices_Fieldrevenuestamp     =     revenuestamp
+ReqKbMainInvoices_Fieldtotal_restant     =     Remaining
+ReqKbMainOrders_Fieldnbre_lignes     =     Nb lines
+ReqKbMainOrders_Fieldnbre_produits     =     Nb products
+ReqKbMainOrders_Fieldnbre_services     =     Nb services
+ReqKbMainOrders_Fieldfk_mode_reglement     =     Payment mode
+Kanview_KB_KanbanOrders     =     Customers Orders Kanban view
+ReqKbMainOrders_Fieldref_ext     =     ref_ext
+ORDER_DRAFT     =     Draft
+ReqKbMainOrders_Fieldfk_cond_reglement     =     Paiment conditions
+ORDER_VALIDATED     =     Validated
+ReqKbMainOrders_Fieldremise_percent     =     Discount percent
+ORDER_DELIVERED     =     Delivered
+ReqKbMainOrders_Fieldtotal_ttc     =     Amount taxes incl.
+ORDER_BILLED     =     Billed
+ReqKbMainOrders_Fieldremise     =     Discount
+ORDER_NOTBILLED     =     Not billed
+ReqKbMainOrders_Fieldsociete_logo     =     Logo
+ReqKbMainOrders_Fielddate_creation     =     Creation date
+ReqKbMainOrders_Fieldrowid     =     #
+ReqKbMainOrders_Fieldamount_ht     =     Amount taxes excl.
+ReqKbMainOrders_Fieldref     =     Ref.
+ReqKbMainOrders_Fieldfacture     =     Invoice
+ReqKbMainOrders_Fieldfk_soc     =     Customer
+ReqKbMainOrders_Fieldsource     =     Source
+ReqKbMainOrders_Fieldfk_projet     =     Project
+ReqKbMainOrders_Fieldfk_warehouse     =     Warehouse
+ReqKbMainOrders_Fieldfk_statut     =     Status
+ReqKbMainPropals_Fieldsociete_logo     =     Logo
+ReqKbMainOrders_Fieldnote_private     =     Private note
+ReqKbMainProspects_Fieldref_ext     =     ref_ext
+ReqKbMainOrders_Fieldnote_public     =     Notes
+ReqKbMainProspects_Fieldnom     =     Prospect
+ReqKbMainOrders_Fielddate_livraison     =     Delivery date
+ReqKbMainProspects_Fieldname_alias     =     Customer alias
+ReqKbMainOrders_Fieldextraparams     =     Extraparams
+ReqKbMainProspects_Fieldstatut     =     Status
+ReqKbMainOrders_Fieldsociete_nom     =     Customer
+ReqKbMainProspects_Fieldparent     =     Parent 
+ReqKbMainOrders_Fieldsociete_name_alias     =     Customer alias
+ReqKbMainProspects_Fieldstatus     =     Status
+ReqKbMainOrders_Fieldid     =     #
+ReqKbMainProspects_Fieldcode_client     =     Ref.
+ReqKbMainOrders_Fieldentity     =     Entity
+ReqKbMainProspects_Fieldaddress     =     Address
+ReqKbMainOrders_Fieldref_int     =     Internal ref.
+ReqKbMainProspects_Fieldzip     =     Zip code
+ReqKbMainOrders_Fieldref_client     =     Code
+ReqKbMainProspects_Fieldtown     =     Town 
+ReqKbMainOrders_Fieldtms     =     Edit date
+ReqKbMainProspects_Fieldfk_stcomm     =     Contact state
+ReqKbMainOrders_Fielddate_valid     =     Validation date
+ReqKbMainProspects_Fieldprefix_comm     =     prefix_comm
+ReqKbMainOrders_Fielddate_cloture     =     Closed at
+ReqKbMainProspects_Fieldclient     =     Customer
+ReqKbMainOrders_Fieldfk_user_author     =     Created by
+ReqKbMainProspects_Fieldcustomer_bad     =     customer_bad
+ReqKbMainOrders_Fieldfk_user_modif     =     Edited by
+ReqKbMainProspects_Fieldcustomer_rate     =     customer_rate
+ReqKbMainOrders_Fieldfk_user_valid     =     Validated by
+ReqKbMainProspects_Fieldsupplier_rate     =     supplier_rate
+ReqKbMainOrders_Fieldfk_user_cloture     =     Closed by
+ReqKbMainProspects_Fieldlogo     =     Logo
+ReqKbMainOrders_Fieldremise_absolue     =     Discount
+ReqKbMainProspects_Fieldtva_assuj     =     tva_assuj
+ReqKbMainOrders_Fieldtva     =     VAT
+ReqKbMainProspects_Fieldfk_incoterms     =     Incoterms
+ReqKbMainOrders_Fieldlocaltax1     =     Total tax1
+ReqKbMainProspects_Fieldoutstanding_limit     =     standing_limit
+PropalSuccessfullyClosedBilled     =     Propal successfully closed (with billed status)
+PropalSuccessfullyClosedNotSigned     =     Propal successfully closed (with not signed status)
+PropalSuccessfullyClosedSigned     =     Propal successfully closed (with signed status)
+PropalSuccessfullyReopened     =     Propal successfully reopened
+PropalSuccessfullyValidated     =     Propal successfully validated
+ReqKbMainOrders_Fieldlocaltax2     =     Total tax2
+ReqKbMainProspects_Fieldmode_reglement_supplier     =     Supplier payment mode
+Rights_CanUseKanview_InvoicesSuppliers     =     Display and edit Suppliers Invoices Kanban view
+msgWarehouseToIncrementDialogTitle     =     Choice of warehouse to increment 
+ReqKbMainInvoicesSuppliers_Fieldtotal_restant     =     Remaining
+ReqKbMainInvoicesSuppliers_Fieldtotal_tva     =     Taxes amount
+ReqKbMainInvoicesSuppliers_Fieldlibelle     =     Label
+ReqKbMainInvoicesSuppliers_Fieldref_supplier     =     Supplier ref.
+ReqKbMainOrders_Fieldtotal_ht     =     Amount vat excl.
+ReqKbMainProspects_Fielddefault_lang     =     Default language
+ReqKbMainInvoicesSuppliers_Fieldnbre_produits     =     Products number
+ReqKbMainInvoicesSuppliers_Fieldamount     =     Amount
+ReqKbMainInvoicesSuppliers_Fieldremise     =     Discount
+ReqKbMainInvoicesSuppliers_Fieldclose_code     =     Close code
+ReqKbMainInvoicesSuppliers_Fieldclose_note     =     Close comments
+ReqKbMainInvoicesSuppliers_Fieldtva     =     VAT
+ReqKbMainOrders_Fieldfk_currency     =     Currency
+ReqKbMainProspects_Fieldsupplier_account     =     Supplier account
+ReqKbMainInvoicesSuppliers_Fieldlocaltax1     =     Total tax1
+ReqKbMainInvoicesSuppliers_Fieldlocaltax2     =     Total tax2
+ReqKbMainInvoicesSuppliers_Fieldtotal     =     Total
+ReqKbMainInvoicesSuppliers_Fieldtotal_ht     =     Amount vat excl.
+ReqKbMainInvoicesSuppliers_Fieldpaye     =     Paid
+ReqKbMainInvoicesSuppliers_Fieldtms     =     Edit date
+ReqKbMainOrders_Fieldfk_availability     =     Availability
+ReqKbMainProspects_Fieldprice_level     =     Price level
+ReqKbMainInvoicesSuppliers_Fieldid     =     #
+ReqKbMainInvoicesSuppliers_Fieldref     =     Ref.
+ReqKbMainInvoicesSuppliers_Fieldentity     =     Entity
+ReqKbMainInvoicesSuppliers_Fieldtotal_ttc     =     Amount taxes incl.
+ReqKbMainInvoicesSuppliers_Fieldref_ext     =     ref_ext
+ReqKbMainInvoicesSuppliers_Fieldfk_soc     =     Supplier
+ReqKbMainOrders_Fieldfk_input_reason     =     input_reason
+ReqKbMainProspects_Fieldremise_client     =     Customer discount
+ReqKbMainInvoicesSuppliers_Fielddatec     =     Creation date
+ReqKbMainInvoicesSuppliers_Fielddatef     =     Invoice date
+ReqKbMainInvoicesSuppliers_Fieldtype     =     Type
+ReqKbMainInvoicesSuppliers_Fieldfk_statut     =     Status
+ReqKbMainInvoicesSuppliers_Fieldfk_user_author     =     Created by
+ReqKbMainInvoicesSuppliers_Fieldmodel_pdf     =     PDF model
+ReqKbMainOrders_Fielddate_commande     =     Order date
+ReqKbMainProspects_Fieldcond_reglement     =     Paiment conditions
+ReqKbMainInvoicesSuppliers_Fieldimport_key     =     Import key
+ReqKbMainInvoicesSuppliers_Fieldextraparams     =     Extraparams
+ReqKbMainInvoicesSuppliers_Fieldsociete_nom     =     Supplier
+ReqKbMainInvoicesSuppliers_Fieldlocation_incoterms     =     Location Incoterms
+ReqKbMainInvoicesSuppliers_Fieldsociete_nom_alias     =     Company alias
+ReqKbMainInvoicesSuppliers_Fieldtotal_paye     =     Paid amount
+ORDER_DELIVERED_NOTBILLED     =     Delivered, not billed
+ReqKbMainProspects_Fieldmode_reglement     =     Payment mode
+ReqKbMainInvoicesSuppliers_Fieldnbre_lignes     =     Lines number
+ReqKbMainInvoicesSuppliers_Fieldnbre_services     =     Services number
+ReqKbMainInvoicesSuppliers_Fieldsociete_logo     =     Logo
+ReqKbMainInvoicesSuppliers_Fieldfk_incoterms     =     Incoterms
+ReqKbMainInvoicesSuppliers_Fieldnote_private     =     Private note
+ReqKbMainInvoicesSuppliers_Fieldfk_user_modif     =     Edited by
+ORDER_DELIVERED_BILLED     =     Delivered, billed
+ReqKbMainProspects_Fieldfk_barcode_type     =     Barcode type
+ReqKbMainInvoicesSuppliers_Fieldfk_user_valid     =     Validated by
+ReqKbMainInvoicesSuppliers_Fieldfk_facture_source     =     Source
+ReqKbMainInvoicesSuppliers_Fieldfk_projet     =     Project
+ReqKbMainInvoicesSuppliers_Fieldfk_account     =     Account
+ReqKbMainInvoicesSuppliers_Fieldfk_cond_reglement     =     Paiment conditions
+ReqKbMainInvoicesSuppliers_Fieldfk_mode_reglement     =     Payment mode
+ReqKbMainInvoicesSuppliers_Fielddate_lim_reglement     =     Deadline payment
+ORDER_BILLED_NOTDELIVERED     =     Not delivered, billed
+ReqKbMainProspects_Fieldcond_reglement_supplier     =     Supplier payment conditions
+ReqKbMainInvoicesSuppliers_Fieldnote_public     =     Notes
+ReqKbMainInvoicesSuppliers_Fieldrowid     =     #
+Rights_CanUseKanview_InvoicesSupplisers     =     Display and edit Suppliers Invoices Kanban view
+UnknownDestinationColumn     =     Unknown destination column
+ReqKbMainProspects_Fieldbarcode     =     Barcode
+ActionNotAllowed     =     Not allowed action
+ReqKbMainProspects_Fieldidprof6     =     idprof6
+Kanview_KB_KanbanInvoicesSuppliers     =     Suppliers Invoices Kanban view
+KANVIEW_PROPALS_NOT_LATE_COLOR     =     It remains more than 30 days to end validity date or propales signed and / or invoiced or end date validity not specified
+ReqKbMainProspects_Fieldprospectlevel_label     =     Level
+WarehouseChoice     =     Warehouse to decrement choice
+ReqKbMainProspects_Fieldstcomm_libelle     =     Contact state
+ReqKbMainProspects_Fieldstcomm_code     =     Contact state code
+ReqKbMainProspects_Fieldcode_client_nom     =     Prospect
+ReqKbMainTasks_FieldContact     =     Resource (contact)
+WarehousesListNotObtained     =     List of warehouses can't be retreived
+ReqKbMainProspects_Fieldfk_forme_juridique     =     Legal status
+ReqKbMainProspects_Fieldsiren     =     SIREN
+KANVIEW_INVOICES_NOT_LATE_COLOR     =     No delay or date payment not specified
+KANVIEW_ORDERS_NOT_LATE_COLOR     =     No delay or delivery date not specified
+
+# 
+# --------------------------- REPORT -------------------------
+# 
+
+# 
+# --------------------------- VALIDATION -------------------------
+# 
+
+# 
+# --------------------------- DIVERS -------------------------
+# 
+
+# 
+# --------------------------- CHAMP -------------------------
+# 
+ReqKbMainProjets_Fieldrowid     =     #
+ReqKbMainProjets_Fieldid     =     #
+ReqKbMainProjets_Fieldfk_soc     =     Customer
+ReqKbMainProjets_Fielddatec     =     Creation date
+ReqKbMainProjets_Fieldtms     =     Edit date
+ReqKbMainProjets_Fielddateo     =     Start date
+ReqKbMainProjets_Fielddatee     =     End date
+ReqKbMainProjets_Fieldref     =     Ref.
+ReqKbMainProjets_Fieldentity     =     Entity
+ReqKbMainProjets_Fieldtitle     =     Label
+ReqKbMainProjets_Fielddescription     =     Description
+ReqKbMainProjets_Fieldfk_user_creat     =     Created by
+ReqKbMainProjets_Fieldfk_user_modif     =     Edited by
+ReqKbMainProjets_Fieldpublic     =     Visibility
+ReqKbMainProjets_Fieldopp_percent     =     Probability
+ReqKbMainProjets_Fielddate_close     =     Close date
+ReqKbMainProjets_Fieldfk_user_close     =     Closed by
+ReqKbMainProjets_Fieldnote_private     =     Private note
+ReqKbMainProjets_Fieldnote_public     =     Notes
+ReqKbMainProjets_Fieldopp_amount     =     Opportunity amount
+ReqKbMainProjets_Fieldbudget_amount     =     Budget amount
+ReqKbMainProjets_Fieldmodel_pdf     =     PDF model
+ReqKbMainProjets_Fieldimport_key     =     Import key
+ReqKbMainProjets_Fieldfk_statut     =     Status
+ReqKbMainProjets_Fieldfk_opp_status     =     Status
+ReqKbMainProjets_Fieldopp_status_code     =     Status Code
+ReqKbMainProjets_Fieldopp_status_label     =     Status
+ReqKbMainProjets_Fieldposition     =     Position
+ReqKbMainProjets_Fieldopp_status_percent     =     Percent status
+ReqKbMainProjets_Fieldactive     =     Status
+PROSP     =     Prospection
+QUAL     =     Qualification
+PROPO     =     Proposal
+NEGO     =     Negociation
+PENDING     =     Pending
+WON     =     Won
+LOST     =     Lost
+ReqKbMainProjets_Fieldlead_status_active     =     Status
+ReqKbMainProjets_Fieldphoto     =     Photo
+DRAFT     =     Draft
+OPENED     =     Open
+CLOSED     =     Closed
+ReqKbMainInvoices_Fielddatef     =     Invoice date
+ReqKbMainInvoices_Fieldfk_soc     =     Customer
+ReqKbMainProjets_Fieldsociete_nom     =     Customer
+ReqKbMainInvoices_Fielddatec     =     Creation date
+PROJECT_VISIBILITY_PRIVATE     =     Project contacts
+PROJECT_VISIBILITY_PUBLIC     =     Every body
+ReqKbMainInvoices_Fieldincrement     =     Increment
+ReqKbMainInvoices_Fielddate_pointoftax     =     date_pointoftax
+VALIDATED     =     Validated
+SIGNED     =     Signed
+NOTSIGNED     =     Not signed
+INVOICED     =     Invoiced
+
+# 
+# --------------------------- IMPORT-EXPORT -------------------------
+# 
+
+# 
+# --------------------------- GLOBAL -------------------------
+# 
+
+# 
+# --------------------------- COMMUNE -------------------------
+# 
+AU     =     To
+DU     =     From
+
+# 
+# ---------------------------  -------------------------
+# 

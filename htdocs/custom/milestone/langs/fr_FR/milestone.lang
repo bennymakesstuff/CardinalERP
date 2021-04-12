@@ -1,0 +1,63 @@
+# Dolibarr language file - en_US - milestone
+CHARSET=UTF-8
+
+Module1790Name=Jalons
+Module1790Desc=Gestion des jalons ( projets, contrats, propales ...)
+
+Permission1791=Consulter les jalons
+Permission1792=Créer/modifier les jalons
+Permission1793=Supprimer les jalons
+
+Milestone=Jalon
+Milestones=Jalons
+MilestoneSetup=Paramétrage des jalons
+HideByDefaultProductDescInsideMilestone=Cacher par défaut la description des produits/services associés aux jalons
+HideBydefaultProductDetailsInsideMilestone=Cacher par défaut le détail des produits/services associés aux jalons
+HideByDefaultMilestoneAmount=Cacher par défaut le montant des jalons
+NewMilestone=Nouveau jalon
+AddMilestone=Ajouter un jalon
+AddTo=Ajouter à :
+MoveTo=Déplacer vers :
+AddPageBreak=Effectuer un saut de page
+PageBreak=Saut de page
+NoMilestone=Pas de jalons
+DeleteMilestone=Supprimer un jalon
+MilestoneDeleted=Le jalon a été supprimé
+ConfirmDeleteMilestone=Etes vous sûr de vouloir supprimer ce jalon ?
+HideDetails=Cacher le détail des produits/services associés aux jalons
+HideDescription=Cacher la description des produits/services associés aux jalons
+HideMilestoneAmount=Cacher le montant des jalons
+ErrorMilestoneFieldRequired=Le champ '%s' du jalon est obligatoire
+MilestoneUpgradeIsNeeded=Vous utilisez une nouvelle version du module MILESTONE, veuillez désactiver et réactiver le module, puis vous rendre dans la configuration du module et cliquez sur "Mise à jour du module".
+MilestoneMoreModules=D'autres modules du même auteur sont disponibles sur:
+MilestoneBackgroundColor=Couleur de fond des Jalons
+ConfirmDeleteMilestoneOption=Choisissez une option de suppression :
+MilestoneDeleteAll=Suppression du jalon et des lignes associées
+MilestoneDeleteMoveProductLineOut=Suppression du jalon et récupération des lignes associées
+MilestoneDeleteMoveProductLineInAnotherMilestone=Suppression du jalon et migration des lignes vers un autre jalon
+MilestoneDeleteSelectAnotherMilestone=Sélectionnez le jalon de destination :
+MilestoneDeleteNameOfNewMilestone=Définissez le nom du nouveau jalon :
+HideOrDisplayMilestonePicto=Afficher ou masquer une icone devant les lignes de produits liées à un jalon.
+
+#errors
+ErrorMilestoneSelectAnotherMilestone=Vous devez sélectionner un jalon de destination
+ErrorMilestoneNewMilestone=Vous devez définir un nom pour le nouveau jalon
+ErrorMilestoneNotDeleted=Le jalon ne peut pas être supprimé !
+ErrorMilestoneDeleteSelectMethod=Vous devez sélectionner une option de suppression !
+
+#upgrade
+MilestoneModuleUpgrade=Mise à jour du module
+MilestoneUpgradeConfirm=Mise à jour du module Milestone
+MilestoneUpgradeConfirmDescription=Mise à jour du module et suppression des lignes produits orphelines.
+MilestoneUpgradeSimulation=Simulation de la mise à jour, aucune donnée ne sera effacée.
+MilestoneUpgrade=Démarrer la mise à jour finale.
+MilestoneUpgradeConfirmAlert=Il est recommandé d'effectuer une sauvegarde de la base de données avant de démarrer la mise à jour finale !
+MilestonePropalMigration=Migration des propales
+MilestoneOrderMigration=Migration des commandes
+MilestoneInvoiceMigration=Migration des factures
+MilestoneUpgradeSimulationCompleted=La simulation c'est terminée sans erreurs.
+MilestoneUpgradeCompleted=La mise à jour finale c'est terminée sans erreurs.
+DeleteOrphansProductLine=Suppression des lignes produits/services orphelines
+ErrorMilestoneUpgradeNotCompleted=La mise à jour ne s'est pas terminée, essayez de la relancer !
+Performed=effectué
+PleaseBePatient=Merci de patienter...

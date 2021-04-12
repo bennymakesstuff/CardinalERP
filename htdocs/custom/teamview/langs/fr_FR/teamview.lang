@@ -1,0 +1,135 @@
+﻿
+DescriptionMod688890938=Module TeamView permet de visualiser l'évolution de l'état des objets d'une façon claire et intuitive, et changer l'état de l'objet par Glisser/Déposer avec la possibilité d'ajouter des commentaires pour chaque élément.
+
+Consulter=Consulter
+
+Date_facture=Date facture
+Date_limite_règlement=Date limite règlement
+Total_payé=Total payé
+Type_prospect=Type prospect
+
+Date_proposition=Date proposition
+Date_livraison=Date livraison
+Fin_validité=Fin validité
+Total_TTC=Total TTC
+Réf=Réf
+Statut=Statut
+
+etatprojetclient=États des projets
+Projets=Projets
+Prospection=Prospection
+Qualification=Qualification
+Proposition=Proposition
+Négociation=Négociation
+En_attente=En attente
+Gagné=Gagné
+Perdu=Perdu
+Statut_inconnu=Statut inconnu
+Date_début=Date début
+Date_fin=Date fin
+Libellé=Libellé
+Date_création=Date création
+Date_commande=Date commande
+Brouillon=Brouillon
+Ouvert=Ouvert
+Clôturé=Clôturé
+Maintenant=Maintenant
+
+
+etatpropals=États des propales
+etatfactureclient=États des Factures Clients
+etatcommandeclient=États des Commandes Clients
+etatprospectclient=États des Prospects
+
+Validées=Validées
+Brouillon=Brouillon
+Signées=Signées
+Non_signées=Non signées
+Facturées=Facturées
+
+write_description=Écrivez une description
+Sous-tâches=Sous-tâches
+Temps_consommé=Temps consommé
+Par=Par
+Durée=Durée
+aucun_temp_consommé=Aucun temps consommé
+
+Livrées_non_facturées=Livrées, non facturées
+Livrées_facturées=Livrées, facturées
+Facturées_non_livrées=Facturées, non livrées
+
+
+Écrivez_un_commentaire=Écrivez un commentaire
+addcomment=Ajouter un commentaire
+save=Enregistrer
+ref_propal=Réf. propale
+updatedSuccessfuly=Mise à jour réussie
+noAutorAction=Action non autorisée
+rollBackToDraft=Action non autorisée
+firstValidate=Vous devez valider d'abord
+firstSign=Vous devez signer d'abord
+permissiondenied=vous n'avez pas la permission
+
+
+Tâches=Tâches
+Propales=Propales
+Factures=Factures
+Commandes=Commandes
+
+factureVide=La facture est vide
+ref_facture=Réf. Facture
+
+commandeVide=La commande est vide
+ref_commande=Réf. Commande
+ref_prospect=Réf. Prospect
+
+Payées=Payées
+Abandonnées=Abandonnées
+A_classer_Payée=A classer "Payée"
+Partiellement_payées=Partiellement payées
+En_retard=En retard
+payé=payé
+
+date_livraison=Date livraison
+
+
+
+Jamais_contacté=Jamais contacté
+Ne_pas_contacter=Ne pas contacter
+a_contacter=À contacter
+Contact_en_cours=Contact en cours
+Contact_réalisé=Contact réalisé
+Désactivés=Désactivés
+
+nbrelements=Nombre d'éléments :
+
+
+
+teamview=TeamView
+Rechercher=Rechercher
+Annuler=Annuler
+teamview=Teamview
+Modifier=Modifier
+Supprimer=Supprimer
+
+Choisir_un_Projet=Choisir un Projet
+Visibilité=Visibilité
+Tiers=Tiers
+État_du_projet=État du projet
+Nombre_des_tâche=Nombre des tâches (première niveau)
+Période=Période
+
+a_Valider=À Valider
+To_Do=To Do
+Validé=Validé
+
+Sous_taches=Sous-tâches
+Commentaire=Commentaire
+
+Tâche_Parent=Tâche Parent
+dans_la_liste=Dans la liste
+Progression_déclarée=Progression déclarée
+Réf_Libellé_Tâche=Réf - Libellé Tâche
+
+modifié=modifié
+EnCours=En Cours

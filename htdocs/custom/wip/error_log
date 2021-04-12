@@ -1,0 +1,328 @@
+[02-Sep-2019 14:05:42 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[04-Sep-2019 09:51:13 Australia/Adelaide] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/finchmc/public_html/erp/core/db/mysqli.class.php:302
+Stack trace:
+#0 /home/finchmc/public_html/erp/custom/wip/class/report.class.php(1454): DoliDBMysqli->fetch_object(false)
+#1 /home/finchmc/public_html/erp/custom/wip/report_card.php(2296): Report->reportLinesa('editline', '2107', Array, 6, 0, NULL, 0, true, 0, 0)
+#2 {main}
+  thrown in /home/finchmc/public_html/erp/core/db/mysqli.class.php on line 302
+[06-Sep-2019 15:52:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Sep-2019 15:58:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Sep-2019 16:00:31 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Sep-2019 16:01:46 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Sep-2019 16:02:46 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Sep-2019 16:04:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Sep-2019 16:14:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Sep-2019 16:44:02 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[09-Sep-2019 10:01:41 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[09-Sep-2019 10:14:56 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[09-Sep-2019 10:15:41 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[09-Sep-2019 10:17:56 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[09-Sep-2019 10:22:11 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Sep-2019 09:32:01 Australia/Adelaide] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/finchmc/public_html/erp/core/db/mysqli.class.php:302
+Stack trace:
+#0 /home/finchmc/public_html/erp/custom/wip/report_card.php(1984): DoliDBMysqli->fetch_object(false)
+#1 {main}
+  thrown in /home/finchmc/public_html/erp/core/db/mysqli.class.php on line 302
+[20-Sep-2019 15:22:56 Australia/Adelaide] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/finchmc/public_html/erp/core/db/mysqli.class.php:302
+Stack trace:
+#0 /home/finchmc/public_html/erp/custom/wip/report_card.php(1984): DoliDBMysqli->fetch_object(false)
+#1 {main}
+  thrown in /home/finchmc/public_html/erp/core/db/mysqli.class.php on line 302
+[20-Sep-2019 15:23:04 Australia/Adelaide] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/finchmc/public_html/erp/core/db/mysqli.class.php:302
+Stack trace:
+#0 /home/finchmc/public_html/erp/custom/wip/report_card.php(1984): DoliDBMysqli->fetch_object(false)
+#1 {main}
+  thrown in /home/finchmc/public_html/erp/core/db/mysqli.class.php on line 302
+[24-Sep-2019 10:16:58 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[24-Sep-2019 10:17:43 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[24-Sep-2019 14:38:16 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[24-Sep-2019 14:41:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[24-Sep-2019 14:42:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:30:11 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:37:56 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:38:56 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:42:42 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:43:42 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:44:42 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:50:12 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:51:27 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:52:12 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:53:12 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:53:57 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 13:58:42 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 14:01:27 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 14:09:42 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 14:11:42 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 14:12:27 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 14:14:12 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 14:19:57 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 14:21:12 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 15:22:13 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 15:23:28 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 15:24:28 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 15:26:58 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 15:32:13 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Sep-2019 15:54:58 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[01-Oct-2019 12:52:11 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[01-Oct-2019 16:06:28 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[01-Oct-2019 16:18:59 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[08-Oct-2019 14:39:38 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[11-Oct-2019 15:08:24 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 10:35:28 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 10:36:13 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 10:39:28 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 10:42:28 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 10:43:13 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 10:43:58 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 10:44:58 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 10:52:58 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 11:07:13 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 11:59:29 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:01:29 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:02:29 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:04:14 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:05:14 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:06:29 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:07:44 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:08:44 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:09:59 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:11:29 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:13:59 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:16:29 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:17:29 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:20:44 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:21:30 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:24:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:25:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:27:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[14-Oct-2019 12:29:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[21-Oct-2019 18:00:58 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[08-Nov-2019 14:55:50 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[08-Nov-2019 14:56:50 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[08-Nov-2019 14:57:35 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[08-Nov-2019 15:04:05 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[08-Nov-2019 15:05:05 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[12-Nov-2019 13:17:42 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[12-Nov-2019 13:18:27 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[12-Nov-2019 13:19:27 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[12-Nov-2019 13:35:57 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[12-Nov-2019 13:53:43 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[19-Nov-2019 13:47:39 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[20-Nov-2019 13:49:51 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 11:18:33 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:21:21 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:22:21 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:23:51 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:26:06 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:26:51 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:27:36 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:28:36 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:29:51 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:35:06 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:39:36 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:45:37 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:46:37 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 15:47:37 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 16:19:07 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Nov-2019 16:20:07 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[26-Nov-2019 11:09:13 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[26-Nov-2019 12:21:59 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[26-Nov-2019 12:22:44 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[26-Nov-2019 12:28:14 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[28-Nov-2019 10:20:56 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[28-Nov-2019 10:22:41 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[28-Nov-2019 16:18:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[29-Nov-2019 11:41:41 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Dec-2019 10:28:23 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Dec-2019 11:13:09 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Dec-2019 11:18:24 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Dec-2019 11:19:54 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Dec-2019 16:32:27 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[13-Dec-2019 12:48:22 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 13:57:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 15:03:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 15:04:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 15:04:46 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 15:10:16 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 15:11:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 15:11:46 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 15:14:16 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 15:15:16 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 15:19:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 15:20:31 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 16:39:17 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 16:40:32 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 16:41:47 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Dec-2019 16:42:32 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 10:14:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 10:15:46 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 15:55:04 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 15:55:49 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 15:56:34 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 15:57:19 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 15:58:04 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 15:59:04 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 15:59:49 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:01:19 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:02:04 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:03:19 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:06:05 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:07:05 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:08:20 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:09:20 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:11:35 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:12:35 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:14:35 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:17:50 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:18:35 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:21:35 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:24:20 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:46:50 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[18-Dec-2019 16:49:50 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[20-Dec-2019 10:49:06 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[24-Dec-2019 10:36:39 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[24-Dec-2019 14:30:26 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[24-Dec-2019 14:31:41 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Dec-2019 11:06:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Dec-2019 12:16:31 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Dec-2019 15:20:48 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Dec-2019 15:23:48 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Dec-2019 15:27:18 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Dec-2019 15:30:03 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 12:27:31 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 12:35:16 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 12:48:16 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 12:58:32 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 13:04:17 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 13:04:17 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:06:47 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:07:32 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:08:47 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:10:47 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:12:02 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:13:02 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:13:47 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:14:47 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:15:47 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:24:18 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:27:18 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Jan-2020 14:30:33 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[07-Jan-2020 14:35:44 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[07-Jan-2020 14:36:59 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[10-Jan-2020 15:45:38 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[13-Jan-2020 15:51:19 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[15-Jan-2020 11:12:24 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[15-Jan-2020 11:17:39 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[15-Jan-2020 11:26:54 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[15-Jan-2020 11:28:39 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[15-Jan-2020 11:30:24 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[15-Jan-2020 13:32:11 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[15-Jan-2020 14:56:12 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[15-Jan-2020 14:56:57 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[15-Jan-2020 15:00:27 Australia/Adelaide] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/finchmc/public_html/erp/core/db/mysqli.class.php:302
+Stack trace:
+#0 /home/finchmc/public_html/erp/custom/wip/class/report.class.php(1454): DoliDBMysqli->fetch_object(false)
+#1 /home/finchmc/public_html/erp/custom/wip/report_card.php(2296): Report->reportLinesa('editline', '2661', Array, 2, 0, NULL, 0, true, 0, 0)
+#2 {main}
+  thrown in /home/finchmc/public_html/erp/core/db/mysqli.class.php on line 302
+[15-Jan-2020 15:03:57 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[15-Jan-2020 15:23:12 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[16-Jan-2020 09:47:56 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[16-Jan-2020 11:28:57 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Jan-2020 09:10:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[17-Jan-2020 09:11:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[20-Jan-2020 12:33:55 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[22-Jan-2020 09:27:21 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[23-Jan-2020 10:47:13 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[23-Jan-2020 10:48:13 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[23-Jan-2020 10:53:28 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[23-Jan-2020 11:11:58 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[23-Jan-2020 11:13:28 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[23-Jan-2020 11:14:28 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[30-Jan-2020 10:42:36 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 15:45:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 15:45:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 15:46:30 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 15:52:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 15:53:30 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 15:55:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 15:55:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 15:56:30 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 15:57:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 15:58:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 16:14:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 16:15:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 16:17:31 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 16:21:16 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[31-Jan-2020 16:22:01 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Feb-2020 14:00:24 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Feb-2020 14:10:09 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Feb-2020 14:10:54 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Feb-2020 14:11:54 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Feb-2020 14:33:39 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Feb-2020 14:41:54 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Feb-2020 14:45:24 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Feb-2020 15:02:25 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Feb-2020 15:20:25 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[03-Feb-2020 15:25:25 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[04-Feb-2020 16:45:21 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[04-Feb-2020 16:47:51 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[04-Feb-2020 16:50:21 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[04-Feb-2020 16:59:06 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[04-Feb-2020 17:21:07 Australia/Adelaide] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/finchmc/public_html/erp/core/db/mysqli.class.php:302
+Stack trace:
+#0 /home/finchmc/public_html/erp/custom/wip/class/report.class.php(1454): DoliDBMysqli->fetch_object(false)
+#1 /home/finchmc/public_html/erp/custom/wip/report_card.php(2296): Report->reportLinesa('editline', '2755', Array, 8, 0, NULL, 0, true, 0, 0)
+#2 {main}
+  thrown in /home/finchmc/public_html/erp/core/db/mysqli.class.php on line 302
+[05-Feb-2020 10:38:39 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 10:40:24 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 10:41:39 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 10:43:24 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 10:44:40 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 10:45:55 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:08:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:11:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:12:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:13:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:14:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:15:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:19:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:20:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:21:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:22:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:23:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:24:30 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:26:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:29:30 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:30:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:33:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:35:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:37:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:38:30 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[05-Feb-2020 16:40:00 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Feb-2020 09:18:03 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Feb-2020 10:25:04 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Feb-2020 10:47:49 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Feb-2020 12:42:51 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Feb-2020 13:22:37 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Feb-2020 13:23:37 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Feb-2020 13:37:52 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[06-Feb-2020 16:27:40 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[07-Feb-2020 15:57:06 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[07-Feb-2020 16:21:06 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[10-Feb-2020 15:05:43 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[10-Feb-2020 16:29:44 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[10-Feb-2020 16:31:59 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[10-Feb-2020 16:32:59 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[10-Feb-2020 16:34:44 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[10-Feb-2020 16:42:44 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[11-Feb-2020 14:04:42 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[11-Feb-2020 14:35:57 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[11-Feb-2020 16:49:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[11-Feb-2020 17:03:15 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[11-Feb-2020 17:04:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[11-Feb-2020 17:05:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[11-Feb-2020 17:06:30 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[11-Feb-2020 17:08:30 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
+[11-Feb-2020 17:10:45 Australia/Adelaide] PHP Warning:  Invalid argument supplied for foreach() in /home/finchmc/public_html/erp/core/class/html.formactions.class.php on line 237
